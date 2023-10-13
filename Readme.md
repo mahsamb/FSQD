@@ -107,28 +107,34 @@ FQSD, through its detailed categorization and well-defined structure, aims to be
 
 
 ## Usage Example and Guide 
-For detailed examples and usage of the dataset, refer to the [Example Usage Notebook](./https://github.com/mahsamb/FSQD/blob/main/ExampleUsage.ipynb).
+For detailed examples and usage of the dataset, refer to the [Example Usage Notebook](./ExampleUsage.ipynb).
 
-**Sample Data**
+
+## Sample Data
 
 (Provide 5-6 sample rows for a clearer understanding of the data structure)
 
-**Benchmarking**
+
+
+## Benchmarking
 
 FQSD has been tested against well-known datasets like:
 
-**Yu, Zha, and Chua (2012)**
+-**Yu, Zha, and Chua (2012)**
 
-**SubjQA by Bjerva, Bhutani, Golshan, Tan, and Augenstein (2020)**
+-**SubjQA by Bjerva, Bhutani, Golshan, Tan, and Augenstein (2020)**
 
-**ConvEx-DS by Hernandez-Bocanegra and Ziegler (2021)**
+-**ConvEx-DS by Hernandez-Bocanegra and Ziegler (2021)**
 
 In these comparisons, FQSD showcased superiority in terms of scale, linguistic diversity, and syntactic intricacy.
 
-**Usage & Guidelines**
+
+
+## Usage & Guidelines
 
 Researchers leveraging FQSD can benefit from its granular categorization system. We recommend a thorough exploration of the dataset's linguistic nuances for better model generalization.
 
-**Licensing & Attribution**
+
+## Licensing & Attribution
 
 (Include licensing details and a citation format so users can appropriately reference your dataset in their works.)
