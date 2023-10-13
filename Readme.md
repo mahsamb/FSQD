@@ -112,7 +112,16 @@ For detailed examples and usage of the dataset, refer to the [Example Usage Note
 
 ## Sample Data
 
-(Provide 5-6 sample rows for a clearer understanding of the data structure)
+Below is a sample from the dataset to give a brief overview of its structure:
+
+| Question                                          | Category   | Sub-Category  |
+|---------------------------------------------------|------------|---------------|
+| What is the capital of France?                    | Geography  | Capital       |
+| How many legs does a spider have?                 | Biology    | Anatomy       |
+| Who wrote 'To Kill a Mockingbird'?                | Literature | Authorship    |
+| What is the smallest prime number?                | Mathematics| Prime Numbers |
+| In what year did the Titanic sink?                | History    | Events        |
+| Who painted the Mona Lisa?                        | Art        | Artists       |
 
 
 
@@ -120,11 +129,11 @@ For detailed examples and usage of the dataset, refer to the [Example Usage Note
 
 FQSD has been tested against well-known datasets like:
 
--**Yu, Zha, and Chua (2012)**
+- **Yu, Zha, and Chua (2012)**
 
--**SubjQA by Bjerva, Bhutani, Golshan, Tan, and Augenstein (2020)**
+- **SubjQA by Bjerva, Bhutani, Golshan, Tan, and Augenstein (2020)**
 
--**ConvEx-DS by Hernandez-Bocanegra and Ziegler (2021)**
+- **ConvEx-DS by Hernandez-Bocanegra and Ziegler (2021)**
 
 In these comparisons, FQSD showcased superiority in terms of scale, linguistic diversity, and syntactic intricacy.
 
@@ -135,6 +144,7 @@ In these comparisons, FQSD showcased superiority in terms of scale, linguistic d
 Researchers leveraging FQSD can benefit from its granular categorization system. We recommend a thorough exploration of the dataset's linguistic nuances for better model generalization.
 
 
-## Licensing & Attribution
 
-(Include licensing details and a citation format so users can appropriately reference your dataset in their works.)
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
