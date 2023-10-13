@@ -1,56 +1,113 @@
-﻿
-**Fine-Grained Question Subjectivity Dataset (FQSD)**
+# Exploration of the Fine-Grained Question Subjectivity Dataset (FQSD)
+ 
 
-**Introduction**
+This notebook provides a comprehensive exploration of the `Fine-Grained Question Subjectivity Dataset (FQSD)`in the smartphone domain. Designed to distinguish not only between subjective and objective questions, FQSD offers additional categorizations to foster advancements in Automatic Subjective Question Answering (ASQA) systems.
 
-In the evolving realm of question subjectivity classification, there's an imperative need for high-quality datasets. FQSD addresses this by introducing a fine-grained dataset tailor-made to bolster the development of Automatic Subjective Question Answering (ASQA) systems.
+## An Introduction to the Dataset
 
-**Background**
+  FQSD presents a curated collection of 10,000 questions, each meticulously classified to delve into the multifaceted aspects of question subjectivity. The dataset is heralded for its remarkable granularity and detailed categorizations, offering researchers and practitioners alike a robust foundation for examining and constructing ASQA systems.
 
-Current datasets in the domain offer a binary perspective on question subjectivity, majorly distinguishing between subjective and objective questions. However, real-world questions often tread a spectrum of subjectivity nuances. Recognizing this, FQSD presents a detailed categorization system, aiming to capture the intricacies of question subjectivity more holistically.
+### Main Classification Task
 
-**Task Description**
+  
 
-**Main Task**:
+The FQSD segments questions into 10 unique classes, each tailored to offer insights into different dimensions of Fine-grained Subjectivity classification:
 
-**Question Subjectivity Classification**: Identify if a question is subjective or objective.
+  
 
-**Subtasks**:
+- **[TSS]:** Target Single Subjective
 
-**Subjective-types Classification**: Here, the objective is to classify subjective questions into specific types:
-**Target**: Questions focusing on specific entities or subjects.
+- **[TCS]:** Target Comparative Subjective
 
-**Attitude**: Questions reflecting a particular sentiment or perspective.
+- **[ASS]:** Attitude Single Subjective
 
-**Reason**: Questions seeking justification or rationale.
+- **[ACS]:** Attitude Comparative Subjective
 
-**Yes/No**: Binary subjective questions.
+- **[RSS]:** Reason Single Subjective
 
-**None**: Questions that don't fit into the aforementioned categories.
+- **[RCS]:** Reason Comparative Subjective
 
-**Comparison-form Classification**: Classify how a question is framed in terms of comparison:
+- **[YSS]:** Yes/No Single Subjective
 
-**Single**: Questions without a comparative element.
+- **[YCS]:** Yes/No Comparative Subjective
 
-**Comparative**: Questions comparing two or more entities or subjects.
+- **[NSO]:** None Single Objective
 
-**Dataset Characteristics**
+- **[NCO]:** None Comparative Objective
 
-**Size**: Comprises a total of 10,000 meticulously curated questions.
+  
 
-**Annotation Integrity**: Annotations have been vetted by three expert annotators, achieving a commendable Fleiss's Kappa score of 0.76 and Pearson correlation values peaking at 0.80.
+Each class serves as a lens through which the nuances of question subjectivity can be further discerned and analyzed, offering a structured framework for both exploration and model training within the domain.
 
-**Columns Description**
+  
 
-**Question**: Textual representation of the question.
+## Diving Deeper: Exploring Subtasks
 
-**Subjectivity_Level**: A binary column denoting if the question is subjective or objective.
+  
 
-**Subjective_Type**: Delineates the category of subjectivity.
+### 1. Subjectivity Classification
 
-**Comparison_Form**: Depicts whether the question has a comparative format.
+  
+
+Under this subtask, the focus is pinned on bifurcating questions into generalized types such as:
+
+- **[S]:** Subjective, where the question implies subjectivity or opinion.
+
+- **[O]:** Objective, where the question seeks factual and verifiable information.
+
+  
+
+### 2. Comparison-form Classification
+
+  
+
+This classification subtask differentiates between distinct forms of questions:
+
+- **[C]:** Comparative, implying a comparison between products.
+
+- **[S]:** Single, implying no comparative analysis.
+
+  
+
+### 3. Subjective-types Classification
+
+  
+
+This level delves into the specific type of subjectivity found in questions, categorized as:
+
+- **[T]:** Target,Inquiring about the entity subject to public perception.
+
+- **[A]:** Attitude, Seeking the rationale behind prevailing public views about a particular entity.
+
+- **[R]:** Reason, Querying public sentiment regarding a specific entity.
+
+- **[Y]:** Yes/No, Probing to confirm the accuracy of a statement related to a particular entity.
+
+- **[N]:** None
+
+  
+
+### 4. Subjectiveity_ComparisionForm Classification
+
+  
+
+This subtask meticulously categorizes subjective questions into further distinct types, such as:
+
+- **[CS]:** Comparative Subjective
+
+- **[CO]:** Comparative Objective
+
+- **[SS]:** Single Subjective
+
+- **[SO]:** Single Objective
+
+  
+
+FQSD, through its detailed categorization and well-defined structure, aims to be a pivotal tool for researchers and engineers in developing, validating, and optimizing ASQA systems, thus paving the way for more accurate and reliable subjectivity analysis in automated question answering.
 
 
+## Usage Example and Guide 
+For detailed examples and usage of the dataset, refer to the [Example Usage Notebook](./https://github.com/mahsamb/FSQD/blob/main/ExampleUsage.ipynb).
 
 **Sample Data**
 
