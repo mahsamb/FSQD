@@ -116,16 +116,16 @@ Below is a sample from the dataset to give a brief overview of its structure:
 
 | Example                                                         | FSQC | Comparison-Form | Subjectivity | Subjective-Type |ComparisonForm-Subjectivity|
 |-----------------------------------------------------------------|------|-----------------|--------------|-----------------|---------------------------|
-| Which phone has a good camera with a price range of 120 – 210 $?| TSS  | Single          | Subjective   | Target          | Single Subjective         |
-| Which phone is slightly better than Samsung X?                  | TCS  | Comparative     | Subjective   | Target          | Comparative Subjective    |
-| How well does the Galaxy Z Flip 2 handle gaming and graphic-intensive apps?| ASS  | Single          | Subjective   | Attitude        | Single Subjective         |
-| What's better: iPhone X or Samsung Y?                           | ACS  | Comparative     | Subjective   | Attitude        | Comparative Subjective    |
-| Why do people recommend buying Samsung X?                       | RSS  | Single          | Subjective   | Reason          | Single Subjective         |
-| Why do people prefer iPhone X over Samsung Y?                   | RCS  | Comparative     | Subjective   | Reason          | Comparative Subjective    |
-| Do people recommend buying Samsung X?                           | YSS  | Single          | Subjective   | Yes/No          | Single Subjective         |
-| Is Samsung as good as Samsung Y?                                | YCS  | Comparative     | Subjective   | Yes/No          | Comparative Subjective    |
-| How long does the Samsung battery life last?                    | NSO  | Single          | Objective    | None            | Single Objective          |
-| Which of Samsung X and Samsung Y are heavier?                   | NCO  | Comparative     | Objective    | None            | Comparative Objective     |
+| Which smartphone would you suggest, the Samsung Galaxy Note 10 Plus or the Huawei P30?	| TSS  | Single          | Subjective   | Target          | Single Subjective  |
+| Which one has a more attractive interface, the Samsung Galaxy S21 + or the iPhone 12 Pro Max?	| TCS  | Comparative     | Subjective   | Target          | Comparative Subjective  |
+| How well does the Galaxy Z Flip 2 handle gaming and graphic-intensive apps?| ASS  | Single          | Subjective   | Attitude        | Single Subjective |
+| How does the camera sharpness compare between Honor 10X and Realme 8 Pro+?	 ACS  | Comparative     | Subjective   | Attitude        | Comparative Subjective   |
+| Why might users who seek a smartphone that balances performance and affordability consider the Micromax Selfie 2X?	 | RSS  | Single          | Subjective   | Reason          | Single Subjective         |
+| Why might someone go for the Realme 8 Pro Extreme over the Sony Xperia 1 VI for faster charging?	| RCS  | Comparative     | Subjective   | Reason          | Comparative Subjective    |
+| Do you think the iPhone SE Plus offers sufficient security features?    | YSS  | Single          | Subjective   | Yes/No          | Single Subjective         |
+| Is the iPhone 12 Mini better at handling large amounts of data than the Xiaomi Redmi K40?	 | YCS  | Comparative     | Subjective   | Yes/No          | Comparative Subjective    |
+| Does the Zenfone 14 Mini provide various camera modes and features?| NSO  | Single          | Objective    | None            | Single Objective          |
+| Is the Vivo X70's user interface customizable with different themes and icon packs?| NCO  | Comparative     | Objective    | None            | Comparative Objective     |
 
 
 ## Benchmarking
