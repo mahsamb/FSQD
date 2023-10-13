@@ -118,7 +118,7 @@ Below is a sample from the dataset to give a brief overview of its structure:
 |-----------------------------------------------------------------|------|-----------------|--------------|-----------------|---------------------------|
 | Which phone has a good camera with a price range of 120 – 210 $?| TSS  | Single          | Subjective   | Target          | Single Subjective         |
 | Which phone is slightly better than Samsung X?                  | TCS  | Comparative     | Subjective   | Target          | Comparative Subjective    |
-| What do people say about the sound quality of Samsung X?        | ASS  | Single          | Subjective   | Attitude        | Single Subjective         |
+| How well does the Galaxy Z Flip 2 handle gaming and graphic-intensive apps?| ASS  | Single          | Subjective   | Attitude        | Single Subjective         |
 | What's better: iPhone X or Samsung Y?                           | ACS  | Comparative     | Subjective   | Attitude        | Comparative Subjective    |
 | Why do people recommend buying Samsung X?                       | RSS  | Single          | Subjective   | Reason          | Single Subjective         |
 | Why do people prefer iPhone X over Samsung Y?                   | RCS  | Comparative     | Subjective   | Reason          | Comparative Subjective    |
