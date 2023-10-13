@@ -119,7 +119,7 @@ Below is a sample from the dataset to give a brief overview of its structure:
 | Which smartphone would you suggest, the Samsung Galaxy Note 10 Plus or the Huawei P30?	| TSS  | Single          | Subjective   | Target          | Single Subjective  |
 | Which one has a more attractive interface, the Samsung Galaxy S21 + or the iPhone 12 Pro Max?	| TCS  | Comparative     | Subjective   | Target          | Comparative Subjective  |
 | How well does the Galaxy Z Flip 2 handle gaming and graphic-intensive apps?| ASS  | Single          | Subjective   | Attitude        | Single Subjective |
-| How does the camera sharpness compare between Honor 10X and Realme 8 Pro+?	 ACS  | Comparative     | Subjective   | Attitude        | Comparative Subjective   |
+| How does the camera sharpness compare between Honor 10X and Realme 8 Pro+?	| ACS  | Comparative     | Subjective   | Attitude        | Comparative Subjective   |
 | Why might users who seek a smartphone that balances performance and affordability consider the Micromax Selfie 2X?	 | RSS  | Single          | Subjective   | Reason          | Single Subjective         |
 | Why might someone go for the Realme 8 Pro Extreme over the Sony Xperia 1 VI for faster charging?	| RCS  | Comparative     | Subjective   | Reason          | Comparative Subjective    |
 | Do you think the iPhone SE Plus offers sufficient security features?    | YSS  | Single          | Subjective   | Yes/No          | Single Subjective         |
