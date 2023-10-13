@@ -114,14 +114,19 @@ For detailed examples and usage of the dataset, refer to the [Example Usage Note
 
 Below is a sample from the dataset to give a brief overview of its structure:
 
-| Question                                          | Category   | Sub-Category  |
-|---------------------------------------------------|------------|---------------|
-| What is the capital of France?                    | Geography  | Capital       |
-| How many legs does a spider have?                 | Biology    | Anatomy       |
-| Who wrote 'To Kill a Mockingbird'?                | Literature | Authorship    |
-| What is the smallest prime number?                | Mathematics| Prime Numbers |
-| In what year did the Titanic sink?                | History    | Events        |
-| Who painted the Mona Lisa?                        | Art        | Artists       |
+| Example                                                         | FSQC    |Comparison-Form | Subjective-Type| Subjectivity |
+|----------------------------------------------------------------|----------|----------------|----------------|--------------|
+| Which phone has a good camera with a price range of 120 – 210 $?| TSS     | Single         | Target         | Subjective   |
+| Which phone is slightly better than Samsung X?                  | TCS     | Comparative    |  Target        | Subjective   |
+| What do people say about the sound quality of Samsung X?        | ASS     | Single         | Attitude       | Subjective   |
+| What's better: iPhone X or Samsung Y?                           | ACS     | Comparative    | Attitude       | Subjective   |
+| Why do people recommend buying Samsung X?                       | RSS     | Single         | Reason         | Subjective   |
+| Why do people prefer iPhone X over Samsung Y?                   | RCS     |                | Reason         | Subjective   | 
+| Do people recommend buying Samsung X?                           | YSS     | Single         | Yes/No         | Subjective   |
+| Is Samsung as good as Samsung Y?                                | YCS     |                | Yes/No         | Subjective   |
+| How long does the Samsung battery life last?                    | NSO     | Single         | None           | Objective    |
+| Which of Samsung X and Samsung Y are heavier?                   | NCO     | Comparative    | None           | Objective    |
+
 
 
 
