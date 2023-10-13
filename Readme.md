@@ -114,19 +114,18 @@ For detailed examples and usage of the dataset, refer to the [Example Usage Note
 
 Below is a sample from the dataset to give a brief overview of its structure:
 
-
-| Example                                                         | FSQC | Comparison-Form | Subjective-Type | Subjectivity | Additional Info        |
-|-----------------------------------------------------------------|------|-----------------|-----------------|--------------|------------------------|
-| Which phone has a good camera with a price range of 120 – 210 $?| TSS  | Single          | Target          | Subjective   | Single Subjective      |
-| Which phone is slightly better than Samsung X?                  | TCS  | Comparative     | Target          | Subjective   | Comparative Subjective |   | What do people say about the sound quality of Samsung X?        | ASS  | Single          | Attitude        | Subjective   | Single Subjective      |
-| What's better: iPhone X or Samsung Y?                           | ACS  | Comparative     | Attitude        | Subjective   | Comparative Subjective |
-| Why do people recommend buying Samsung X?                       | RSS  | Single          | Reason          | Subjective   | Single Subjective      |
-| Why do people prefer iPhone X over Samsung Y?                   | RCS  | Comparative     | Reason          | Subjective   | Comparative Subjective |
-| Do people recommend buying Samsung X?                           | YSS  | Single          | Yes/No          | Subjective   | Single Subjective      |
-| Is Samsung as good as Samsung Y?                                | YCS  | Comparative     | Yes/No          | Subjective   | Comparative Subjective |
-| How long does the Samsung battery life last?                    | NSO  | Single          | None            | Objective    | Single Objective       |
-| Which of Samsung X and Samsung Y are heavier?                   | NCO  | Comparative     | None            | Objective    | Comparative Objective  |
-
+| Example                                                         | FSQC | Comparison-Form | Subjectivity | Subjective-Type |ComparisonForm-Subjectivity|
+|-----------------------------------------------------------------|------|-----------------|--------------|-----------------|---------------------------|
+| Which phone has a good camera with a price range of 120 – 210 $?| TSS  | Single          | Subjective   | Target          | Single Subjective         |
+| Which phone is slightly better than Samsung X?                  | TCS  | Comparative     | Subjective   | Target          | Comparative Subjective    |
+| What do people say about the sound quality of Samsung X?        | ASS  | Single          | Subjective   | Attitude        | Single Subjective         |
+| What's better: iPhone X or Samsung Y?                           | ACS  | Comparative     | Subjective   | Attitude        | Comparative Subjective    |
+| Why do people recommend buying Samsung X?                       | RSS  | Single          | Subjective   | Reason          | Single Subjective         |
+| Why do people prefer iPhone X over Samsung Y?                   | RCS  | Comparative     | Subjective   | Reason          | Comparative Subjective    |
+| Do people recommend buying Samsung X?                           | YSS  | Single          | Subjective   | Yes/No          | Single Subjective         |
+| Is Samsung as good as Samsung Y?                                | YCS  | Comparative     | Subjective   | Yes/No          | Comparative Subjective    |
+| How long does the Samsung battery life last?                    | NSO  | Single          | Objective    | None            | Single Objective          |
+| Which of Samsung X and Samsung Y are heavier?                   | NCO  | Comparative     | Objective    | None            | Comparative Objective     |
 
 
 ## Benchmarking
