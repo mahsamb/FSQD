@@ -107,7 +107,7 @@ FQSD, through its detailed categorization and well-defined structure, aims to be
 
 
 ## Usage Example and Guide 
-For detailed examples and usage of the dataset, refer to the [Example Usage Notebook](./ExampleUsage.ipynb).
+For detailed examples and usage of the dataset, along with insights from figures pertaining to our analysis, please refer to the [Example Usage Notebook](./Figures.ipynb), which includes figures from our article.
 
 
 ## Sample Data
