@@ -109,6 +109,15 @@ FQSD, through its detailed categorization and well-defined structure, aims to be
 ## Usage Example and Guide 
 For detailed examples and usage of the dataset, along with insights from figures pertaining to our analysis, please refer to the [Example Usage Notebook](./Figures.ipynb), which includes figures from our article.
 
+For detailed insights and usage examples of our dataset and analysis, refer to the Example Usage Notebook, which includes figures from our article. To showcase our methodology and facilitate a comparative analysis with other transformer models like BERT and XLNet, we provide links to Sample Runs below:
+To further illustrate the effectiveness of our approach and facilitate comparative analysis with other transformer models like BERT and XLNet, we have provided Sample Runs for each model evaluation, aligned with our article's methodology.
+
+ - Our Approach with RoBERTa Evaluation: [Sample Run for RoBERTa Notebook](./Figures.ipynb)
+ - Comparative Evaluation with BERT: [Sample Run for BERT Notebook](./Figures.ipynb)
+ - Comparative Evaluation with XLNet: [Sample Run for XLnet Notebook](./Figures.ipynb)
+
+It should be noted that our findings are based on the average of five runs, using a 5-fold cross-validation strategy to ensure robustness. The showcased code represents one run, highlighting our training and evaluation process on the FQSD across metrics like precision, recall, and F1-score. This approach offers a glimpse into the comparative performance of these models.
+
 
 ## Sample Data
 
